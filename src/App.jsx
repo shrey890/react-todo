@@ -31,7 +31,7 @@ function App() {
 
   const taskListContent = taskList.map((task, index) => (
     <div key={ index }>
-      <p style={ { display: "inline-block", marginTop: '15px' } }>{ task }</p>
+      <p style={ { display: "inline-block", marginTop: '15px' , color:'black' } }>{ task }</p>
       <button
         onClick={ () => deleteTask(index) }
         style={ { color: 'red', marginLeft: '5px' } }
