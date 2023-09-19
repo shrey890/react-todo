@@ -62,8 +62,9 @@ function App() {
         <br />
       </div>
       { taskListContent }
-      <small>
-        &copy; shrey |{'       '}
+      <br /><br /><br /><br /><br /><br /><br />
+      <small style={{color:'black', fontFamily:'monospace' , fontSize:'1rem', fontWeight:'bold '  }}>
+        ©️ shrey |{'       '}
         <a href="https://twitter.com/shrey4875" target='_blank'>
           <i className="fab fa-twitter" ></i>
         </a> |{'       '}
